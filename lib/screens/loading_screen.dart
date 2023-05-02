@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:clima/services/location.dart';
 import 'package:http/http.dart' as http;
-import 'dart:convert';
+import 'dart:convert';  // used for JSON conversions
 
 class LoadingScreen extends StatefulWidget {
   @override
